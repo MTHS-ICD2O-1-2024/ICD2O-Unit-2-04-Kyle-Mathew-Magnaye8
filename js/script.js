@@ -11,20 +11,17 @@
  */
 function calculatePermeterAndAreaOfRectangle() {
   // input
-  const lengthOfRectangle = parseInt(
-    document.getElementById("length-of-rectangle").value
+  const baseOfTriangle = parseInt(
+    document.getElementById("Base-of-triangle").value
   )
   const heightOfRectangle = parseInt(
-    document.getElementById("width-of-rectangle").value
+    document.getElementById("Height-of-triangle").value
   )
 
   // process
-  const areaOfRectangle = lengthOfRectangle * heightOfRectangle
-  const perimeterOfRectangle = (lengthOfRectangle + heightOfRectangle) * 2
+  const areaOfRectangle = (lengthOfRectangle * heightOfRectangle) / 2
 
   // output
   document.getElementById("area").innerHTML =
-    "Area is: " + areaOfRectangle + " cm²"
-  document.getElementById("perimeter").innerHTML =
-    "Perimeter is: " + perimeterOfRectangle + " cm"
+    "Area is: " + areaOfTriangle + " cm²"
 }
