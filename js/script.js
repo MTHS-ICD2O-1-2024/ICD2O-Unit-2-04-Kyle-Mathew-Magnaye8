@@ -1,7 +1,7 @@
 // Copyright (c) 2025 kyle.matthew.magnaye All rights reserved
 //
 // Created by: kyle.matthew.magnaye
-// Created on: Feb 2025
+// Created on: Jun 2025
 // This file contains the JS functions for index.html
 
 "use strict"

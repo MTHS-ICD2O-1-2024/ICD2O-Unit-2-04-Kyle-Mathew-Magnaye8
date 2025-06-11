@@ -1,12 +1,17 @@
-/* Created by: kyle.matthew.magnaye
-* Created on: Feb 2025
+/* Created by: Kyle Matthew Magnaye
+* Created on: May 2025
 * This file contains the CSS for index.html
 */
+body {
+  background: lightblue;
+}
+
 
 .mdl-layout__header-row {
   justify-content: center;
   padding: 0;
 }
+
 
 .mdl-layout__content {
   padding-left: 15pt;
@@ -14,9 +19,11 @@
   padding-top: 15pt;
 }
 
+
 .mdl-textfield__error {
   color: lightgreen;
 }
+
 
 .page-content {
   color: rgb(186, 34, 34);
@@ -24,9 +31,6 @@
   font-size: 1.25rem;
 }
 
-body {
-  background-color: rgb(42, 197, 221);
-}
 
 img {
   float: right;
